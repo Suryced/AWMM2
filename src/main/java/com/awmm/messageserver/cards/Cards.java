@@ -342,7 +342,9 @@ public class Cards {
 	    case Board.	ConservatoryName: { return getConservatory();} 
 	    case Board.	    BallroomName: { return getBallroom();    } 
 	    case Board.	     KitchenName: { return getKitchen();     } 
-		default: return null;
+		default: {
+			return "";
+		}
 		}
 	}
 	
